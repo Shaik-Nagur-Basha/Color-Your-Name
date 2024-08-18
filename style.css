@@ -1,0 +1,5 @@
+div {
+  overflow: hidden; /* Hide scrollbars */
+  display: flex;
+  flex-wrap: wrap;
+}
