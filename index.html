@@ -7,7 +7,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div></div>
+    <div id="form">
+        <div><label for="htmlElement"><b>Enter the HTML Element: </b><input type="text" id="htmlElement" name="htmlElement" placeholder="span, h1, h2, h3, .." required></label><br><br></div>
+        <div><label for="name"><b>Enter your Name: </b><input type="text" id="name" placeholder="your name" placeholder="span, h1, h2, h3, .." name="name" required></label><br><br></div>
+        <div><label for="noOfElements"><b>How many times your Name: </b><input type="number" id="noOfElements" placeholder="1, 2, ..1000" name="noOfElements" min="1" max="1000" step="1" required></label><br><br></div>
+        <div><label for="nameSize"><b>Enter the px SIZE in number: </b><input type="range" placeholder="4, 5, ...50" id="nameSize" name="nameSize" min="4" max="50" step="1" required>&nbsp;&nbsp;<b>Value: </b><output id="value1"></output>px</label><br><br></div>
+        <div><label for="colorInterval"><b>Enter color interval in Seconds: </b><input type="range" placeholder="0.5, 1, 1.5, ...21" min="0.5" max="21" step="0.5" id="colorInterval" name="colorInterval" required>&nbsp;&nbsp;<b>Value: </b><output id="value2"></output>sec</label><br><br></div>
+        <button type="submit" onclick="values()" style="margin-left: 130px;">Submit</button>
+    </div>
+    <div id="colorElements"></div>
     <script src="script.js"></script>
 </body>
 </html>

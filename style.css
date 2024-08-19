@@ -1,5 +1,27 @@
-div {
-  overflow: hidden; /* Hide scrollbars */
+#colorElements {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+#form {
+  height: 30vh;
+  width: 30vw;
+  margin: 33.3vh 34vw;
+  font-size: 1em;
+}
+
+button {
+  padding: 0.312rem 1.01rem;
+  border-radius: 1rem;
+  margin-top: 30px;
+  font-size: 1.5rem;
+}
+
+button:hover {
+  border: 0.125rem solid black;
+  background-color: red;
+  color: white;
+  font-size: 1.75rem;
+  border-radius: 1.25rem;
 }
