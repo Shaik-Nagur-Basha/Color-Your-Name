@@ -8,7 +8,7 @@
   height: 30vh;
   width: 30vw;
   margin: 33.3vh 34vw;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 button {
@@ -24,4 +24,13 @@ button:hover {
   color: white;
   font-size: 1.75rem;
   border-radius: 1.25rem;
+  cursor: pointer;
+}
+
+/* Dark theme styles */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+    color: white;
+  }
 }
